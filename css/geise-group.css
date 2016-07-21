@@ -195,6 +195,14 @@ p.google_scholar {
   margin-right: 0.5%;
 }
 
+.archive_group_photo {
+  width: 60%;
+}
+
+.archive_group_photo_container {
+  text-align: center;
+}
+
 /* Facilities */
 div.panel-body li {
     font-weight: 700;
@@ -243,21 +251,25 @@ h2.research_header {
 
 @media screen and (min-width: 500px) and (max-width: 990px) {
     .geise_profile {
-        width: 50%;
+      width: 50%;
     }
 
     .team_members {
-        width: 60%;
-        margin: 0 auto;
+      width: 60%;
+      margin: 0 auto;
     }
 
     .img-portfolio {
-        margin: 0 auto;
-        padding: 10px;
+      margin: 0 auto;
+      padding: 10px;
     }
 
     .research_pic {
-        width: 75%;
+      width: 75%;
+    }
+
+    .archive_group_photo {
+      width: 80%;
     }
 }
 
@@ -274,6 +286,10 @@ h2.research_header {
         width: 40%;
         margin: 0 auto;
         padding: 5px;
+    }
+
+    .archive_group_photo {
+      width: 100%;
     }
 
     .research_pic {

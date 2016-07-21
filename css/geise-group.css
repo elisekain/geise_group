@@ -203,6 +203,10 @@ p.google_scholar {
   text-align: center;
 }
 
+.cv_link {
+    color: #ee600d;
+}
+
 /* Facilities */
 div.panel-body li {
     font-weight: 700;

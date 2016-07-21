@@ -1,0 +1,266 @@
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Header Styles */
+.navbar-inverse {
+    background-color: #002654;
+    border-color: #002654;
+}
+
+.navbar-inverse .navbar-collapse {
+    padding-top: 15px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #F36F21;
+}
+
+.navbar {
+    min-height: 80px;
+}
+
+.navbar-right li {
+    border-right: 1px white solid;
+}
+
+.navbar-right li:last-child {
+    border-right: none;
+}
+
+.navbar-right a {
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+}
+
+.navbar-nav {
+    margin-top: 10px;
+}
+
+.navbar-nav>li.active_link>a {
+    color: #ee600d; 
+    background-color: initial;
+}
+
+.navbar-inverse .navbar-nav>.open>a, 
+.navbar-inverse .navbar-nav>.open>a:focus, 
+.navbar-inverse .navbar-nav>.open>a:hover {
+    background-color: initial;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+}
+
+/* Home Page */
+
+i.glyphicon, i.fa {
+    font-size: 20px;
+}
+
+.panel-heading {
+    text-align: center;
+    padding: 20px;
+}
+
+.news-header {
+    text-align: center;
+    background-color: #3c58ad;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.news-header h2 {
+    margin-top: 10px;
+}
+
+.panel-title {
+    text-align: left;
+}
+
+.date {
+    color: #ee600d;
+}
+
+/* Google Scholar Button */
+i.fa-graduation-cap {
+    color: #ee600d;
+    padding-right: 10px;
+}
+
+.well {
+    background-color: #ee600d;
+}
+
+i.fa-newspaper-o {
+    padding-right: 15px;
+    font-size: 1.25em;
+}
+
+p.google_scholar {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+/* Contact Page */
+.map {
+    text-align: center;
+}
+
+/* People */
+.geise_profile {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.grad_student_bio {
+    text-align: left;
+}
+
+.joining_info_box {
+    width: 95%;
+    border: 1px solid #bbb;
+    background-color: #eee;
+    padding: 5px 20px;
+}
+
+/* Facilities */
+div.panel-body li {
+    font-weight: 700;
+    list-style-type: none;
+}
+
+div.panel-body li.sub {
+    font-weight: initial;
+    list-style-type: initial;
+    list-style-position: inside;
+}
+
+li.equipment_header {
+    margin-top: 15px;
+}
+
+/* Water */
+.water_cylinder {
+    max-height: 120px;
+    margin: 0 auto;
+}
+
+.research_pic {
+    width: 50%;
+    margin: 20px auto;
+    padding: 50px;
+    background-color: #000;
+    border-radius: 5px;
+}
+
+.energy_pic {
+    background-color: #fff;
+    padding: 20px;
+}
+
+p.research_text {
+    width: 75%;
+    margin: 5px auto;
+}
+
+h2.research_header {
+    text-align: center;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 500px) and (max-width: 990px) {
+    .geise_profile {
+        width: 50%;
+    }   
+
+    .team_members {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .img-portfolio {
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .research_pic {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    a.btn-block {
+        font-size: 0.9em;
+    }
+
+    a.btn-block i {
+        display: block;
+    }
+
+    .img-portfolio {
+        width: 40%;
+        margin: 0 auto;
+        padding: 5px;
+    }
+
+    .research_pic {
+        width: 90%;
+    }
+
+    h1.page-header, h2.page-header {
+        font-size: 24px;
+    }
+}

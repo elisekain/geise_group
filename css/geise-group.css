@@ -63,12 +63,12 @@ body {
 }
 
 .navbar-nav>li.active_link>a {
-    color: #ee600d; 
+    color: #ee600d;
     background-color: initial;
 }
 
-.navbar-inverse .navbar-nav>.open>a, 
-.navbar-inverse .navbar-nav>.open>a:focus, 
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
 .navbar-inverse .navbar-nav>.open>a:hover {
     background-color: initial;
 }
@@ -175,6 +175,26 @@ p.google_scholar {
     padding: 5px 20px;
 }
 
+.alumni_bio_header {
+  margin-top: 0;
+}
+
+.alumni_bio_header.undergrad {
+  margin: 0;
+}
+
+.alumni_bio {
+  margin: 0;
+}
+
+.alumni-pic {
+  padding: 0;
+}
+
+.alumni_thumbnail {
+  margin-right: 0.5%;
+}
+
 /* Facilities */
 div.panel-body li {
     font-weight: 700;
@@ -224,7 +244,7 @@ h2.research_header {
 @media screen and (min-width: 500px) and (max-width: 990px) {
     .geise_profile {
         width: 50%;
-    }   
+    }
 
     .team_members {
         width: 60%;
